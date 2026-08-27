@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rooms & Availability — Pal Hotel</title>
+<meta name="description" content="See Pal Hotel's rooms, pick your dates and guests, and send your booking enquiry as one ready-made WhatsApp message. Confirmed by a real person.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rooms & Availability — Pal Hotel">
+<meta property="og:description" content="Pick your room and dates, send one WhatsApp message, and we confirm your stay.">
+<meta property="og:image" content="img/gen-2.png">
+<meta name="theme-color" content="#C65D3A">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="18" fill="%233B2316"/><text x="32" y="42" font-family="sans-serif" font-size="30" font-weight="800" fill="%23FFF7E8" text-anchor="middle">P</text></svg>'>
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Hotel",
+  "name": "Pal Hotel",
+  "image": ["img/gen-hero.1.png", "img/gen-2.png"],
+  "description": "Comfortable rooms at fair prices. Book by WhatsApp or phone — confirmed by a real person."
+}
+</script>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="brand-mark">P</span> Pal Hotel</a>
+    <nav aria-label="Main">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="navlist" aria-label="Menu">☰</button>
+      <ul class="nav-links" id="navlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#rooms">Rooms</a></li>
+        <li><a href="index.html#amenities">Amenities</a></li>
+        <li><a href="index.html#location">Location</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a class="btn btn-primary" href="#selector">Check availability</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- PAGE HERO -->
+  <section class="hero" style="padding-bottom:2.6rem;">
+    <div class="blob blob-terra"></div>
+    <div class="wrap hero-grid">
+      <div>
+        <span class="kicker" data-reveal>Rooms & availability</span>
+        <h1 data-reveal>Pick your room.<br>We hold it.<span class="hand-underline" aria-hidden="true"></span></h1>
+        <p class="promise" data-reveal>Choose a room type, add your dates, and we turn it into one tidy WhatsApp message. A person replies — not a bot.</p>
+      </div>
+      <figure class="arched" data-reveal>
+        <img src="img/gen-2.png" alt="Concept art of bright hotel rooms with soft daylight" width="1024" height="768" fetchpriority="high">
+        <figcaption class="media-tag">Concept art</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <hr class="stitched" aria-hidden="true">
+
+  <!-- ROOM DETAIL -->
+  <section class="sec-cream" id="room-types">
+    <div class="wrap">
+      <span class="kicker on-cream" data-reveal>The rooms</span>
+      <h2 data-reveal>What you are choosing between</h2>
+      <p class="lede" data-reveal>Honest descriptions of three room types. Exact bed counts and views vary by room — confirm in your enquiry and the front desk will match you right.</p>
+      <div class="rooms-grid">
+        <article class="panel" data-reveal style="padding:0;overflow:hidden;border-radius:22px;">
+          <div class="room-media" style="border-radius:0;"><img src="img/gen-hero.1.png" alt="Concept art of a double hotel room with warm bedside lighting" loading="lazy" width="512" height="384"><span class="media-tag">Concept art</span></div>
+          <div style="padding:1.2rem 1.35rem;">
+            <h3>Double Room</h3>
+            <p style="margin-top:.35rem;color:var(--brown-soft);font-size:.94rem;">A quiet double for two — the straightforward choice for a short trip or an overnight halt.</p>
+            <div class="todo-slot">TODO-OWNER: from-price goes here</div>
+          </div>
+        </article>
+        <article class="panel" data-reveal style="padding:0;overflow:hidden;border-radius:22px;">
+          <div class="room-media" style="border-radius:0;"><img src="img/gen-2.png" alt="Concept art of a bright family hotel room with multiple beds" loading="lazy" width="512" height="384"><span class="media-tag">Concept art</span></div>
+          <div style="padding:1.2rem 1.35rem;">
+            <h3>Family Room</h3>
+            <p style="margin-top:.35rem;color:var(--brown-soft);font-size:.94rem;">Room to spread out — space for the whole family without stacking bags in the corridor.</p>
+            <div class="todo-slot">TODO-OWNER: from-price goes here</div>
+          </div>
+        </article>
+        <article class="panel" data-reveal style="padding:0;overflow:hidden;border-radius:22px;">
+          <div class="room-media" style="border-radius:0;"><div class="duo" role="img" aria-label="Decorative pattern block — photo of the single room coming soon">✦</div></div>
+          <div style="padding:1.2rem 1.35rem;">
+            <h3>Single Room</h3>
+            <p style="margin-top:.35rem;color:var(--brown-soft);font-size:.94rem;">Everything a solo traveller actually needs, at the kindest price in the house.</p>
+            <div class="todo-slot">TODO-OWNER: from-price goes here</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <hr class="stitched olive" aria-hidden="true">
+
+  <!-- SIGNATURE: ROOM-SELECTOR INQUIRY COMPOSER -->
+  <section class="sec-sand" id="selector">
+    <div class="wrap">
+      <span class="kicker on-cream" data-reveal>Book in one message</span>
+      <h2 data-reveal>Your enquiry, already written</h2>
+      <p class="lede" data-reveal>Fill this in and we compose the message for you — copy it or send it straight to us on WhatsApp. Nothing is submitted to a server; the message stays yours until you press send.</p>
+
+      <form class="selector" id="selector" data-reveal novalidate>
+        <div>
+          <fieldset style="border:none;">
+            <legend style="font-family:ui-rounded,system-ui,sans-serif;font-weight:800;font-size:.84rem;color:var(--brown-soft);">1 · Room type</legend>
+            <div class="selector-pick">
+              <label class="pick-option">
+                <input type="radio" name="room" value="Double Room">
+                <span class="pick-card"><span class="pick-icon">🛏️</span>Double</span>
+              </label>
+              <label class="pick-option">
+                <input type="radio" name="room" value="Family Room">
+                <span class="pick-card"><span class="pick-icon">👨‍👩‍👧</span>Family</span>
+              </label>
+              <label class="pick-option">
+                <input type="radio" name="room" value="Single Room">
+                <span class="pick-card"><span class="pick-icon">🎒</span>Single</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="field-grid">
+            <div class="field">
+              <label for="checkin">2 · Check-in</label>
+              <input type="date" id="checkin" name="checkin" autocomplete="off">
+            </div>
+            <div class="field">
+              <label for="checkout">Check-out</label>
+              <input type="date" id="checkout" name="checkout" autocomplete="off">
+            </div>
+            <div class="field">
+              <label id="guests-label">3 · Guests</label>
+              <div class="stepper" role="group" aria-labelledby="guests-label">
+                <button type="button" data-step="-1" aria-label="Fewer guests">−</button>
+                <output aria-live="polite">1</output>
+                <button type="button" data-step="1" aria-label="More guests">+</button>
+              </div>
+            </div>
+          </div>
+
+          <p class="selector-error" role="alert" aria-live="polite"></p>
+
+          <div class="selector-actions">
+            <button type="button" class="btn btn-primary magnetic" data-send="wa">Send on WhatsApp</button>
+            <button type="button" class="btn btn-olive magnetic" data-send="mail">Send by email</button>
+          </div>
+          <p style="margin-top:.85rem;font-size:.81rem;color:var(--brown-soft);">
+            Buttons appear once the owner's contact details are added in
+            <code>js/config.js</code>. TODO-OWNER: WhatsApp number + email.
+          </p>
+        </div>
+
+        <div class="preview-panel" aria-live="polite">
+          <span class="preview-label">Your message</span>
+          <p class="preview-msg">Hi! I'd like to enquire about a stay at Pal Hotel.</p>
+          <button type="button" class="copy-btn">📋 <span class="copy-label">Copy message</span></button>
+          <span style="font-size:.79rem;color:var(--brown-soft);">Copy works always — paste it into any chat app.</span>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <hr class="stitched" aria-hidden="true">
+
+  <!-- INQUIRY BAND -->
+  <section class="sec-terra inquiry-band" id="contact">
+    <div class="wrap">
+      <span class="kicker dark" data-reveal>Talk to a person</span>
+      <h2 data-reveal>Rather just call?</h2>
+      <div class="contact-row" data-reveal>
+        <a class="btn magnetic" href="#" data-contact="whatsapp" target="_blank" rel="noopener" style="background:#fff;color:var(--brown);">WhatsApp us</a>
+        <a class="btn magnetic" href="#" data-contact="tel" style="background:var(--olive);color:#fff;">Call the front desk</a>
+        <a class="btn btn-ghost" href="#" data-contact="email">Email instead</a>
+      </div>
+      <p class="owner-config-note" data-reveal>Buttons switch on when contact details are filled in <code>js/config.js</code>.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">Pal Hotel</div>
+        <p class="foot-note">A calm, honest stay — booked in one message.</p>
+      </div>
+      <ul class="foot-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="rooms.html#selector">Check availability</a></li>
+      </ul>
+    </div>
+    <p class="foot-fine">Concept by Facelift - content sourced from https://no-site-2652311580/ - takedown on request<br>
+    Content published on the basis of voluntarily available business information (DPDP Act basis: 7(a) voluntarily published). Imagery shown is concept art, not photographs of the property.</p>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

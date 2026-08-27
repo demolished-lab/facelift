@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ravi Alpahar - impact report | Facelift</title>
+<style>
+:root{--bg:#fafaf8;--card:#fff;--ink:#14161a;--muted:#5c6470;--accent:#0e9f6e;--red:#dc2626;--line:#e7e7e2}
+*{margin:0;box-sizing:border-box}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+.bar{background:#0f1115;color:#dfe4ea;font-size:13px;padding:10px 16px}.bar b{color:#34d399}
+main{max-width:1080px;margin:0 auto;padding:28px 18px 72px}
+h1{font-size:clamp(26px,5vw,42px);margin:6px 0 6px}
+.sub{color:var(--muted);font-size:17px;margin-bottom:24px}
+h2{font-size:22px;margin:44px 0 14px}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:760px){.compare{grid-template-columns:1fr}}
+.pane{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#0f1115}
+.pane h3{padding:10px 14px;font-size:13px;color:#dfe4ea;display:flex;justify-content:space-between;align-items:center}
+.pane.before h3{background:#3b1212}.pane.after h3{background:#0c3325}
+.pane h3 a{color:#93c5fd;text-decoration:none;font-size:12px}
+.framebox{position:relative;width:100%;aspect-ratio:9/14;background:#fff}
+.framebox iframe,.framebox img{position:absolute;inset:0;width:100%;height:100%;border:0}
+.phoneframe{border-radius:22px 22px 0 0}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.metric{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.metric h4{font-size:14px;color:var(--muted);margin-bottom:10px}
+.brow{display:flex;align-items:center;gap:8px;margin:7px 0}
+.blab{width:52px;font-size:10px;font-weight:800;letter-spacing:.06em}
+.btrack{flex:1;height:14px;background:#efeeea;border-radius:7px;overflow:hidden}
+.bfill{height:100%;border-radius:7px}
+.bfill.before{background:var(--red)}.bfill.after{background:var(--accent)}
+.bval{width:64px;font-size:12px;font-weight:700;text-align:right;font-variant-numeric:tabular-nums}
+.impact{background:#0f1115;color:#e6e9ef;border-radius:16px;padding:24px}
+.impact h2{color:#fff;margin-top:0}
+.impact li{margin:10px 0 10px 18px;color:#c4ccd4}
+.impact b{color:#34d399}
+.src{font-size:11px;color:#8a94a0;margin-top:14px;line-height:1.5}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 17px}
+.card .t{font-weight:800;font-size:14px;margin-bottom:4px}
+.card .t::before{content:"\2713 ";color:var(--accent)}
+.card p{font-size:13px;color:var(--muted)}
+.cta{text-align:center;margin-top:44px}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:14px 30px;border-radius:10px;text-decoration:none;font-weight:800;font-size:16px}
+.note{text-align:center;color:var(--muted);font-size:13px;margin-top:10px}
+.ctable{width:100%;border-collapse:collapse;font-size:14.5px;background:#fff;border-radius:12px;overflow:hidden}
+.ctable th{text-align:left;background:#f1f0eb;padding:10px 14px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#5c6470}
+.ctable td{padding:11px 14px;border-top:1px solid var(--line)}
+.ctable tr.you td{background:#fdf3f2;font-weight:700}
+.ctable .dom{color:#8a94a0;font-size:12px}
+.matrix td{text-align:center}.matrix td.fname{text-align:left;font-weight:600}
+.matrix td.yes{color:#047857;font-weight:800}
+.matrix td.no{color:#b91c1c}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:26px}
+</style>
+</head>
+<body>
+<div class="bar"><span><b>Facelift</b> impact report for Ravi Alpahar</span></div>
+<main>
+<h1>What changes for Ravi Alpahar</h1>
+<p class="sub">Both sites below are live and fully interactive - scroll them, tap around, compare honestly.</p>
+
+<div class="compare">
+<div class="pane before"><h3><span>BEFORE &middot; current site</span><a href="https://no-site-1802056898/" target="_blank">open &#8599;</a></h3>
+<div class="framebox"><img src="before.png" alt="current site screenshot"></div></div>
+<div class="pane after"><h3><span>AFTER &middot; Facelift concept</span><a href="https://facelift-ravi-alpahar-18020568.facelift.workers.dev" target="_blank">open &#8599;</a></h3>
+<div class="framebox"><iframe src="https://facelift-ravi-alpahar-18020568.facelift.workers.dev" loading="lazy" title="Facelift concept"></iframe></div></div>
+</div>
+
+<h2>Measured today, not promises</h2>
+<p class="sub">Before-numbers come from a live Google Lighthouse audit of the current site. After-targets are what this concept is engineered to hit.</p>
+<div class="metrics">
+<div class="metric"><h4>Load time (LCP)</h4><div class="brow"><span class="blab">BEFORE</span><div class="btrack"><div class="bfill before" style="width:80%"></div></div><span class="bval">80</span></div><div class="brow"><span class="blab">AFTER</span><div class="btrack"><div class="bfill after" style="width:20%"></div></div><span class="bval">20</span></div></div>
+</div>
+
+
+
+<section class="impact">
+<h2>Why speed = customers = revenue</h2>
+<ul>
+<li>As mobile load grows from <b>1s to 5s</b>, bounce probability rises up to <b>40%</b> - most visitors never even see the page today.</li>
+<li><b>53%</b> of mobile visits are abandoned past 3 seconds of load time.</li>
+<li>A <b>0.1s</b> speed improvement lifts retail conversions by about <b>8%</b>; going from broken-fast compounds it.</li>
+<li>Google uses page experience (Core Web Vitals like LCP) as a <b>ranking signal</b> - faster pages get found more often, free.</li>
+<li>Every second removed moves ad spend further: same budget, more arrived visitors, fewer wasted clicks.</li>
+</ul>
+<p class="src">Benchmarks: Google/SOASTA mobile bounce study 2017 &middot; Think with Google mobile abandonment 2016 &middot; Deloitte "Milliseconds Make Millions" 2020 &middot; Google Page Experience ranking signal, 2021+. Estimates are directional industry benchmarks, not guarantees specific to this business.</p>
+</section>
+
+<h2>The hidden engineering you don't see</h2>
+<div class="grid">
+<div class="card"><div class="t">Search-engine structure</div><p>Semantic HTML5, meta descriptions, Open Graph tags, and LocalBusiness structured data (schema.org) so Google can show rich results.</p></div>
+<div class="card"><div class="t">Built to be found</div><p>Clean headings, fast mobile load and Core-Web-Vitals-friendly delivery - the signals local search rankings reward.</p></div>
+<div class="card"><div class="t">One-tap customer actions</div><p>Click-to-call, WhatsApp-ready contact, address card - visitors reach you in one tap instead of hunting.</p></div>
+<div class="card"><div class="t">Owner-friendly by design</div><p>Inquiries land straight in your inbox; content updates are simple edits, not rebuilds.</p></div>
+<div class="card"><div class="t">Trust signals</div><p>HTTPS-only assets, consistent branding, accessible contrast - the quiet cues that make visitors stay.</p></div>
+<div class="card"><div class="t">Edge-delivered worldwide</div><p>Served from Cloudflare's global network - the same infrastructure behind the internet's biggest sites.</p></div>
+</div>
+
+<div class="cta"><a class="btn" href="https://facelift-ravi-alpahar-18020568.facelift.workers.dev">Explore the concept &rarr;</a></div>
+<p class="note">Want this as your real website? Packages from INR 7,999. Reply to our email or use the concept's contact section.</p>
+</main>
+<footer>Impact report by Facelift &middot; built 2026-08-24 &middot; sources audited from https://no-site-1802056898/</footer>
+</body>
+</html>

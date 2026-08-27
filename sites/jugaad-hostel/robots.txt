@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://facelift-jhouse-42968479.facelift.workers.dev/sitemap.xml

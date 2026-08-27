@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Order &amp; Contact — MANIT Canteen</title>
+<meta name="description" content="Send an order inquiry to MANIT Canteen in one tap: build your list, copy it to WhatsApp, or call. Hours and directions to the MANIT Bhopal campus counter.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#FBF2E0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Order &amp; Contact — MANIT Canteen">
+<meta property="og:description" content="Build your order list and send it to MANIT Canteen in one tap. Hours and directions included.">
+<meta property="og:image" content="img/gen-hero.1.png">
+<meta property="og:url" content="https://no-site-3673314739/contact.html">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="gridlines" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="index.html">MANIT Canteen</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="index.html"><span class="num">01</span>Canteen</a>
+      <a href="menu.html"><span class="num">02</span>Menu</a>
+      <a href="contact.html" aria-current="page"><span class="num">03</span>Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>Meals &amp; Thalis</span><span>Chai between classes</span><span>Snacks &amp; Chaat</span><span>Group orders by headcount</span><span>Cold drinks all day</span><span>One-tap order inquiry</span>
+    <span>Meals &amp; Thalis</span><span>Chai between classes</span><span>Snacks &amp; Chaat</span><span>Group orders by headcount</span><span>Cold drinks all day</span><span>One-tap order inquiry</span>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="wrap">
+      <span class="kicker reveal">Order &amp; contact</span>
+      <h1 class="reveal">Tell us<br>what you<br>need<span class="accent">.</span></h1>
+      <p class="lede reveal">Pick items, set quantities, add a note — the composer writes one clear message you can copy or send straight to the counter.</p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="composer-h">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="index" aria-hidden="true">03</span>
+        <div>
+          <h2 id="composer-h">Inquiry composer</h2>
+          <p>No account, no form spam — one structured message.</p>
+        </div>
+      </div>
+
+      <form class="composer reveal" id="composer" onsubmit="return false">
+        <div class="field">
+          <span class="label" id="pick-label">1 · What do you want?</span>
+          <div class="chips" role="group" aria-labelledby="pick-label">
+            <button type="button" class="chip" data-item="Meal / Thali" aria-pressed="false">Meal / Thali</button>
+            <button type="button" class="chip" data-item="Snacks" aria-pressed="false">Snacks</button>
+            <button type="button" class="chip" data-item="Chai" aria-pressed="false">Chai</button>
+            <button type="button" class="chip" data-item="Cold drinks" aria-pressed="false">Cold drinks</button>
+            <button type="button" class="chip" data-item="Group order" aria-pressed="false">Group order</button>
+          </div>
+          <p class="hint">Tap to add, tap again to remove.</p>
+        </div>
+
+        <div class="field">
+          <span class="label">2 · Quantities</span>
+          <div class="picks" aria-live="polite"></div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="note">3 · Note (optional)</label>
+          <textarea class="note" id="note" rows="3" maxlength="500" placeholder="e.g. pickup at 1 pm, 40 people for the dept event…"></textarea>
+          <p class="hint">Max 500 characters.</p>
+        </div>
+
+        <div class="field">
+          <span class="label">Your message</span>
+          <div class="preview" aria-live="polite"></div>
+        </div>
+
+        <div class="composer-actions">
+          <button type="button" class="btn act-copy">Copy message</button>
+          <a class="btn act-wa" href="#" rel="noopener">Send on WhatsApp</a>
+          <a class="btn btn-ghost act-mail" href="#">Send by email</a>
+          <span class="copy-state" role="status"></span>
+        </div>
+        <p class="hint" style="margin-top:1rem;">WhatsApp opens with your message ready — pick the canteen chat. <span style="color:var(--red); text-transform:uppercase; font-size:0.8125rem; letter-spacing:0.08em;">TODO-OWNER</span> add the canteen number once and messages go straight to it.</p>
+      </form>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="reach-h">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="index" aria-hidden="true">04</span>
+        <div>
+          <h2 id="reach-h">Or reach the counter directly</h2>
+        </div>
+      </div>
+      <div class="band-actions reveal">
+        <a class="btn" data-contact="wa" href="#composer"><span class="btn-label" data-pending="WhatsApp — details pending">WhatsApp</span></a>
+        <a class="btn btn-ghost" data-contact="tel" href="#composer"><span class="btn-label" data-pending="Call — details pending">Call</span></a>
+        <a class="btn btn-ghost" data-contact="mail" href="#composer"><span class="btn-label" data-pending="Email — details pending">Email</span></a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=MANIT+Bhopal" target="_blank" rel="noopener">Directions</a>
+      </div>
+      <div class="trust reveal" style="margin-top:2rem;">
+        <div>
+          <h3>Hours</h3>
+          <dl>
+            <div><dt>Mon – Sat</dt><dd><span class="todo">TODO-OWNER</span></dd></div>
+            <div><dt>Sunday</dt><dd><span class="todo">TODO-OWNER</span></dd></div>
+          </dl>
+        </div>
+        <div>
+          <h3>Where</h3>
+          <p>MANIT Campus, Bhopal, Madhya Pradesh</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <span class="wordmark" style="font-size:0.9375rem;">MANIT Canteen</span>
+      <p>MANIT Campus, Bhopal, Madhya Pradesh</p>
+    </div>
+    <p class="legal">
+      Concept by Facelift - content sourced from https://no-site-3673314739/ - takedown on request.<br>
+      Information published voluntarily by/for the business (DPDP Act 2023, voluntary-public basis).
+    </p>
+  </div>
+</footer>
+
+<script src="js/composer.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+data/
+builds/
+.env
+__pycache__/
+*.pyc
+gh-pages-staging/
